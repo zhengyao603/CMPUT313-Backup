@@ -1,0 +1,92 @@
+h1 {
+    font-size:		1.3em;
+    color:		#1a65a3;
+    margin-top:		0em;
+    margin-bottom:	0.4em;
+}
+hr {
+    width:		80%;
+    margin-left		10%;
+}
+
+a.lhs:link {
+    color:		#0000cc;
+    text-decoration:	none;
+}
+a.lhs:visited {
+    color:		#0000cc;
+    text-decoration:	none;
+}
+
+dt {
+    font-weight:	bold;
+}
+dd {
+    margin-left:	1.5em;
+}
+
+code {
+    font-family:        monospace;
+    font-size:		1.3em;
+    background:		#eeeeee;
+}
+div.code {
+    white-space:        pre;
+    font:		1.3em monospace;
+    width:		fit-content;
+    background-color:   #eeeeee;
+    border:             1px solid gray;
+    border-radius:      4px;
+    padding:            0.5em;
+}
+div.code:first-line {
+    line-height:	0px;
+}
+span.shell {
+    font-family:	monospace;
+    font-weight:	bold;
+    font-size:		1.3em;
+    color:		blue;
+    background:		#eeeeee;
+}
+
+
+
+
+table.thin {
+    border-width:	1px 1px 1px 1px;
+    border-style:	solid;
+    border-collapse:	collapse;
+}
+th.thin {
+    border-width:	1px 1px 1px 1px;
+    border-style:	solid;
+    background-color:	#cccccc;
+    border-color:	gray;
+    padding:		4px;
+}
+td.thin {
+    border-width:	1px 1px 1px 1px;
+    border-style:	solid;
+    border-color:	gray;
+    padding:		4px;
+    text-align:		left;
+}
+td.option0 {
+    padding:		2px;
+    border:             1px solid gray;
+    text-align:		left;
+    vertical-align:	top;
+    background-color:	white
+}
+td.option1 {
+    padding:		2px;
+    border:             1px solid gray;
+    text-align:		left;
+    vertical-align:	top;
+    background-color:	#eeeeee;
+}
+
+img.imgborder {
+    border:		1px solid gray;
+}

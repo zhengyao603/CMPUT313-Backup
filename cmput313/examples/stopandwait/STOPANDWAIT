@@ -1,0 +1,19 @@
+compile:		"stopandwait.c"
+
+bandwidth:		56Kbps,
+
+messagerate:		100ms,
+propagationdelay:	200ms,
+
+probframecorrupt:	3
+
+host Perth {
+    x: 100
+    y: 50
+    link to Sydney {
+    }
+}
+
+host Sydney {
+    east east east of Perth
+}

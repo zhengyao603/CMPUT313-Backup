@@ -1,0 +1,20 @@
+// A WAN with 7 nodes
+//
+compile = "lab1.c"
+
+probframeloss= 100
+costperbyte=  10
+
+mapwidth=200m, mapheight=150m, mapgrid= 25m, mapscale= 0.3
+
+host West    {x= 50,  y= 100, address= 10,
+              link to North_1{costperbyte= 20},
+	      link to South_1{costperbyte= 30}}
+host North_1 {x= 75,  y= 50,  address= 20, link to Middle}
+host South_1 {x= 75,  y= 150, address= 25, link to Middle}
+host Middle  {x= 100, y= 100, address= 30, link to North_2, link to South_2}
+host North_2 {x= 125, y= 50,  address= 40, link to East}
+host South_2 {x= 125, y= 150, address= 45, link to East}
+host East    {x= 150, y= 100, address= 50,
+     	      link to North_2 {costperbyte= 200},
+	      link to South_2 {costperbyte= 300}}

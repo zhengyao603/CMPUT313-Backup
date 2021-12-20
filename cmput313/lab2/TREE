@@ -1,0 +1,20 @@
+compile		  = "lab2b.c"
+
+bandwidth	  = 64Kbps
+
+minmessagesize    = 4000bytes
+maxmessagesize    = 4000bytes
+
+messagerate       = 100ms
+propagationdelay  = 2500ms
+
+probframeloss     = 0
+probframecorrupt  = 0
+
+host hostA {x= 50,  y= 50, address= 10, link to R1}
+router R1 {x = 200, y = 50, address = 20, link to hostB}
+host hostB {x = 350, y = 50, address = 30, link to R2}
+router R2 {x = 350, y = 200, address = 40, link to hostC}
+host hostC {x = 350, y = 350, address = 50, link to R3}
+router R3 {x = 200, y = 350, address = 60, link to hostD}
+host hostD {x = 50, y = 350, address = 70, link to hostA}

@@ -1,0 +1,15 @@
+compile = "lab3.c -lm"
+
+var mobiles = "110, 120, 130, 140, 150"
+var anchors = "10"
+
+mapwidth	= 400m
+mapheight	= 400m
+
+mobile M1 {address = 110, x = 50, y = 200, wlan {} }
+mobile M2 {address = 120, x = 200, y = 200, wlan {} }
+mobile M3 {address = 130, x = 150, y = 250, wlan {} }
+mobile M4 {address = 140, x = 250, y = 275, wlan {} }
+mobile M5 {address = 150, x = 275, y = 225, wlan {} }
+
+accesspoint A1 {address = 10, x = 100, y = 100, wlan {}}

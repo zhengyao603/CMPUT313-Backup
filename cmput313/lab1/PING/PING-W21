@@ -1,0 +1,10 @@
+
+compile = "ping-W21.c"
+
+propagationdelay= 1600 msec
+wan-jitter=       400 msec
+
+host perth     { x= 100, y= 50, address= 302, messagerate= 1000ms,
+     	         link to melbourne }
+host melbourne { x= 400, y= 50, address= 351, messagerate = 4000ms,
+     	         link to perth }

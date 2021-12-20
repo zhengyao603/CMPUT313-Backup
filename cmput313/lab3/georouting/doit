@@ -1,0 +1,27 @@
+
+for nnodes in 4 8 12
+do
+
+cat << CHRIS_WAS_HERE  >  TOPOLOGY
+
+compile		= "georouting.c mobility.c -lm"
+icontitle	= "%n"
+
+mapwidth	= 400m
+mapheight	= 400m
+
+CHRIS_WAS_HERE
+
+for n in `seq 1 $nnodes`
+do
+    echo "mobile M$n { wlan { } }"  >> TOPOLOGY
+done
+
+cnet -e 10mins -W -T -s -f 20sec -q -N TOPOLOGY | grep transmitted | tail -1
+
+done
+
+exit
+
+
+

@@ -1,0 +1,31 @@
+
+Dear All,					March 2020
+
+I am pleased to announce this newest release of my cnet network
+simulator.  cnet v3.4.1 enables experimentation with data-link,
+network, and transport layer networking protocols in networks
+consisting of any combination of wide-area-networking (WAN),
+local-area-networking (LAN), or wireless-local-area-networking
+(WLAN) links.
+
+cnet runs on most Linux/UNIX platforms, and Apple's macOS.  It does
+not run Windows.  The full distribution (about 2.9MB) includes all
+source code, Makefiles, documentation, and some representative
+protocol examples, and is freely available under the GNU General
+Public Licence v2 from:
+
+    http://www.csse.uwa.edu.au/cnet/
+
+A quick overview, including some screenshots, may be found at:
+
+    http://www.csse.uwa.edu.au/cnet/introduction.php
+
+This announcement will hopefully arrive in time for you to consider
+cnet's new features for your next teaching semester or term.
+Feedback about your use of cnet in your teaching is welcomed.
+
+_______________________________________________________________________________ 
+Assoc. Prof. Chris McDonald                E: Chris.McDonald@uwa.edu.au
+Computer Science & Software Engineering    W: http://www.csse.uwa.edu.au/~chris
+The University of Western Australia, M002  T: +618 6488 2533
+Crawley, Western Australia, 6009           F: +618 6488 1089
